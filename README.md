@@ -68,8 +68,25 @@
 
 ## 📁 Repository Structure
 
-Havenza-Hotel-booking-platform/ ├── client/ # React frontend application │ ├── src/ │ │ ├── components/ # Navbar, Hero, HotelCard, Modals, Admin components │ │ ├── pages/ # Home, RoomDetails, MyBookings, HotelOwner Dashboard │ │ ├── context/ # Global auth & booking context state │ │ └── App.jsx │ ├── package.json │ └── vite.config.js │ └── server/ # Node.js & Express backend API ├── configs/ # Database connection & Cloudinary setup ├── controllers/ # Auth, Hotel, Room, and Booking controllers ├── middleware/ # Auth verification & file upload handlers ├── models/ # MongoDB schemas (User, Hotel, Room, Booking) ├── routes/ # API route definitions └── server.js # Application entry point
-
+```text
+Havenza-Hotel-booking-platform/
+├── client/                    # React frontend application
+│   ├── src/
+│   │   ├── components/        # Navbar, Hero, HotelCard, Modals, Admin components
+│   │   ├── pages/             # Home, RoomDetails, MyBookings, HotelOwner Dashboard
+│   │   ├── context/           # Global auth & booking context state
+│   │   └── App.jsx
+│   ├── package.json
+│   └── vite.config.js
+│
+└── server/                    # Node.js & Express backend API
+    ├── configs/               # Database connection & Cloudinary setup
+    ├── controllers/           # Auth, Hotel, Room, and Booking controllers
+    ├── middleware/            # Auth verification & file upload handlers
+    ├── models/                # MongoDB schemas (User, Hotel, Room, Booking)
+    ├── routes/                # API route definitions
+    └── server.js              # Application entry point
+```
 
 
 ---
@@ -98,9 +115,10 @@ npm install
 npm run dev
 # or: node server.js
 
-
+```
 
 ### 2. Frontend Setup
+```
 cd client
 
 # Install dependencies
